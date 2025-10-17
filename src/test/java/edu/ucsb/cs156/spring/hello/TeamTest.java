@@ -47,6 +47,7 @@ public class TeamTest {
     @Test
     public void equals_case3_pt3() {
 	Team otherTeam = new Team("different-team");
+	otherTeam.addMember("Gaucho");
 	assertFalse(team.equals(otherTeam));
     }
 
