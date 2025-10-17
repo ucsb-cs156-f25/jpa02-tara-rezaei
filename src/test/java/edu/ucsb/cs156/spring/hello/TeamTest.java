@@ -51,6 +51,13 @@ public class TeamTest {
 	assertFalse(team.equals(otherTeam));
     }
 
+    @Test
+    public void equals_case3_pt4(){
+	Team otherTeam = new Team("test-team");
+	otherTeam.addMember("Gaucho");
+	assertFalse(team.equals(otherTeam));
+    }
+
     
     @Test
     public void toString_returns_correct_string() {
