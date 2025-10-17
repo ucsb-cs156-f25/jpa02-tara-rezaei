@@ -34,14 +34,13 @@ public class Developer {
      */
     
     public static Team getTeam() {
-        // TODO: Change this to your team name
-        Team team = new Team("f25-xx");
-        team.addMember("Alice");
-        team.addMember("Bob");
-        team.addMember("Chris G.");
-        team.addMember("Danny");
-        team.addMember("Eve");
-        team.addMember("Frances");
+        Team team = new Team("f25-11");
+        team.addMember("Tara R.");
+        team.addMember("Avaneesh V.");
+        team.addMember("Ethan K.");
+        team.addMember("Ethan C.");
+        team.addMember("Jehmiah P.");
+	team.addMember("Sagnik B.");
         return team;
     }
 }
