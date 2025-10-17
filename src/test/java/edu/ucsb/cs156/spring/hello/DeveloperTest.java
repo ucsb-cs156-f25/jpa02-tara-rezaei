@@ -29,7 +29,7 @@ public class DeveloperTest {
     // 100% mutation coverage (all mutants timed out or killed)
     @Test
     public void testgetName_returns_correct_githubId() {
-	assertEquals("tararezaei", Developer.getGithubId());
+	assertEquals("tara-rezaei", Developer.getGithubId());
     }
 
     @Test
